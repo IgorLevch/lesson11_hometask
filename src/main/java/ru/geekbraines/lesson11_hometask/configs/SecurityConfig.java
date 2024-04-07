@@ -36,7 +36,9 @@ public class SecurityConfig extends WebSecurityConfiguration{  // в уроке 
                 .and()
                 .logout()
                 .invalidateHttpSession(true)
-                .deleteCookies("JSESSIONID");    
+                .deleteCookies("JSESSIONID");  
+                
+                
 
 
             

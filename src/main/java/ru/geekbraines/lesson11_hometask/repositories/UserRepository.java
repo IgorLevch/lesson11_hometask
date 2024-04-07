@@ -8,6 +8,8 @@ import ru.geekbraines.lesson11_hometask.entities.User;
 
 public interface UserRepository extends JpaRepository<User, Long>{
 
+
+   
    // Optional<User> findByUsername(String username);
 
 }
