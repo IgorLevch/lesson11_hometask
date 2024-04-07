@@ -26,10 +26,16 @@ public class UserService implements UserDetailsService{
 
     private final UserRepository userRepository;
 
+    
+
     public Optional<User> findByUsername(String username){
 
             return(((UserService) userRepository).findByUsername(username));
+
+
     }
+
+
 
     @Override
     @Transactional

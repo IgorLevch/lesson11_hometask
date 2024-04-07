@@ -6,4 +6,8 @@ import ru.geekbraines.lesson11_hometask.entities.Role;
 
 public interface RoleRepository extends JpaRepository<Role,Long>{
 
+
+
+
+
 }

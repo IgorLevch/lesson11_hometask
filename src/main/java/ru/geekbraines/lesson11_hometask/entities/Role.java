@@ -13,6 +13,8 @@ import jakarta.persistence.Table;
 import lombok.Data;
 
 
+
+
 @Entity
 @Data
 @Table(name="roles")

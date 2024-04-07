@@ -16,3 +16,6 @@ server:
     url: jdbc:h2:mem:mydatabase;MODE=PostgreSQL
     username: sa
     password:
+
+
+    
